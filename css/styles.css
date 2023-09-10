@@ -1,0 +1,322 @@
+*,
+**::before,
+**::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --brand-color-first:#F6F6F6;
+    --brand-color-second:#252B42;
+    --brand-color-third:#FA4A0C;
+    --brand-color-fourth:#737373;
+    --brand-color-fifth:#FFFFFF;
+}
+.container {
+ width: 1200px;
+ margin: 0 auto;
+}
+
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding-bottom: 41px;
+    padding-top: 49px;
+}
+
+.header_menu{
+    display: flex;
+    gap: 94px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_menu-link {
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 28px;
+ letter-spacing: 0.2px;
+ display: flex;
+ padding: 10px;
+ align-items: center;
+ gap: 10px;
+ color: var(--brand-color-second);
+}
+
+.header_menu-link:hover {
+    color: var(--brand-color-third)
+}
+
+.home {
+    background-image: url("/IMG/Rectangle48.png");
+    background-repeat: no-repeat;
+
+}
+
+.home_box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 162px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.home_box-title h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--brand-color-first);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.home_box-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    width: 799px;
+    height: 151.111px;
+    color: var(--brand-color-fifth);
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+
+.home_box-title h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+   flex-shrink: 0;
+   color: var(--brand-color-first);
+}
+
+.home_buttons {
+    display: flex;
+    gap: 67px;
+}
+
+.home_buttons-items {
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background-color: inherit;
+    width: 236px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: var(--brand-color-fifth);
+    padding:16px 0px;
+}
+
+.home_buttons-items:active {
+  background: var(--brand-color-third);
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+  border-color: var(--brand-color-third);
+}
+
+.product {
+ padding-top: 50px;
+ padding-bottom: 108px;
+}
+
+
+.product_box-title h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.product_box-item {
+    display: flex;
+    gap: 298px;
+    justify-content: center;
+}
+
+.product_box-item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.product_box-item-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: var(--brand-color-third);
+    padding-top: 183px;
+}
+
+.product_box-item-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--brand-color-second);
+}
+
+.product_box-item-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--brand-color-fourth);
+}
+
+.faq {
+    padding-top: 29px;
+    padding-bottom: 180px;
+}
+
+
+.faq_box-item {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 370px;
+}
+
+.faq_box-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 213px;
+
+}
+
+
+.faq_box-item-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: var(--brand-color-third);
+}
+
+.faq_box-item-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--brand-color-second);
+}
+
+.faq_box-item-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--brand-color-fourth);
+}
+
+.contact {
+    background-image: url("/IMG/Rectangle47.png");
+    background-repeat: no-repeat;
+}
+
+.contact_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 146px;
+    padding-bottom: 133px;
+}
+
+.contact_box-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--brand-color-fifth);
+}
+
+.contact_box-title h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; 
+    color: var(--brand-color-fifth);
+}
+
+.contact_box-buttons {
+    display: flex;
+ gap: 16px;    
+}
+
+.contact_box-buttons_item {
+    border-radius: 10px;
+    border: 1px solid var(--brand-color-fifth);
+    padding: 16px 45px;
+    background-color:inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: 0.2px;
+    color: var(--brand-color-fifth);
+}
+
+.contact_box-buttons_item:active {
+    background: var(--brand-color-third);
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+    border-color: var(--brand-color-third);
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: row;
+    gap: 845px;
+    padding-top: 112px;
+    padding-bottom: 58px;
+}
+
+.footer_box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; 
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #5C5C5C;
+}
